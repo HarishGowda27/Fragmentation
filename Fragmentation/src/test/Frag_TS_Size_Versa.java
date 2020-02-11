@@ -7,14 +7,15 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 import pages.PageLocators;
 
 public class Frag_TS_Size_Versa {
 
 		static WebDriver driver = null; 
-		
-		public static void main(String[] args) throws InterruptedException {
+		@Test
+		public static void abc () throws InterruptedException {
 			
 		PageLocators.Driver(driver);
 		
